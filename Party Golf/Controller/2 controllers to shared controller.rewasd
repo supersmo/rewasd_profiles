@@ -1,14 +1,14 @@
 {
-  "schemaVersion": 3,
-  "appVersion": "7.0.0",
+  "schemaVersion": 3.0,
+  "appVersion": "7.1.0",
   "config": {
     "appName": "Party Golf",
+    "author": "supersmo",
     "comment": "2 Controllers to shared controller. Enable 8 players in settings.",
     "processNames": [
       "Party Golf.exe"
     ],
-    "minTimeUnit": 1,
-    "author": "supersmo"
+    "minTimeUnit": 1
   },
   "devices": {
     "hardware": [
@@ -45,7 +45,7 @@
         {
           "deviceId": 1,
           "buttonId": 1,
-          "description": "XB, Stadia: A \/ DS4: Cross \/ Nintendo: B"
+          "description": "XB, Stadia: A / DS4: Cross / Nintendo: B"
         }
       ]
     },
@@ -55,7 +55,7 @@
         {
           "deviceId": 1,
           "buttonId": 3,
-          "description": "XB, Stadia: X \/ DS4: Square \/ Nintendo: Y"
+          "description": "XB, Stadia: X / DS4: Square / Nintendo: Y"
         }
       ]
     },
@@ -65,7 +65,7 @@
         {
           "deviceId": 1,
           "buttonId": 10,
-          "description": "XB, Nintendo: RightStick \/ DS4, Stadia: R3"
+          "description": "XB, Nintendo: RightStick / DS4, Stadia: R3"
         }
       ]
     },
@@ -125,7 +125,7 @@
         {
           "deviceId": 1,
           "buttonId": 2,
-          "description": "XB, Stadia: B \/ DS4: Circle \/ Nintendo: A"
+          "description": "XB, Stadia: B / DS4: Circle / Nintendo: A"
         }
       ]
     },
@@ -135,7 +135,7 @@
         {
           "deviceId": 1,
           "buttonId": 4,
-          "description": "XB, Stadia: Y \/ DS4: Triangle \/ Nintendo: X"
+          "description": "XB, Stadia: Y / DS4: Triangle / Nintendo: X"
         }
       ]
     },
@@ -145,7 +145,7 @@
         {
           "deviceId": 1,
           "buttonId": 5,
-          "description": "XB: LeftShoulder \/ DS4, Stadia: L1 \/ Nintendo: L"
+          "description": "XB: LeftShoulder / DS4, Stadia: L1 / Nintendo: L"
         }
       ]
     },
@@ -155,7 +155,7 @@
         {
           "deviceId": 1,
           "buttonId": 6,
-          "description": "XB: RightShoulder \/ DS4, Stadia: R1 \/ Nintendo: R"
+          "description": "XB: RightShoulder / DS4, Stadia: R1 / Nintendo: R"
         }
       ]
     },
@@ -165,7 +165,7 @@
         {
           "deviceId": 1,
           "buttonId": 7,
-          "description": "XB: View \/ XB360: Back \/ DS4: Share \/ Nintendo: Minus \/ DS3: Select \/ Stadia: Options \/ NvidiaShield: Back \/ SNES: Select"
+          "description": "XB: View / XB360: Back / DS4: Share / Nintendo: Minus / DS3: Select / Stadia: Options / NvidiaShield: Back / SNES: Select"
         }
       ]
     },
@@ -175,7 +175,7 @@
         {
           "deviceId": 1,
           "buttonId": 8,
-          "description": "XB, Stadia: Menu \/ XB360: Start \/ DS4: Options \/ Nintendo: Plus \/ DS3: Start \/ NvidiaShield: Start \/ SNES: Start"
+          "description": "XB, Stadia: Menu / XB360: Start / DS4: Options / Nintendo: Plus / DS3: Start / NvidiaShield: Start / SNES: Start"
         }
       ]
     },
@@ -185,7 +185,7 @@
         {
           "deviceId": 1,
           "buttonId": 9,
-          "description": "XB, Nintendo: LeftStick \/ DS4, Stadia: L3"
+          "description": "XB, Nintendo: LeftStick / DS4, Stadia: L3"
         }
       ]
     },
@@ -195,7 +195,7 @@
         {
           "deviceId": 1,
           "buttonId": 11,
-          "description": "XB, Nintendo, Flydigi: Home \/ DS4: PS \/ Stadia: Stadia \/ NvidiaShield: Nvidia"
+          "description": "XB, Nintendo, Flydigi: Home / DS4: PS / Stadia: Stadia / NvidiaShield: Nvidia"
         }
       ]
     },
@@ -295,7 +295,7 @@
         {
           "deviceId": 2,
           "buttonId": 1,
-          "description": "XB, Stadia: A \/ DS4: Cross \/ Nintendo: B"
+          "description": "XB, Stadia: A / DS4: Cross / Nintendo: B"
         }
       ]
     },
@@ -305,7 +305,7 @@
         {
           "deviceId": 2,
           "buttonId": 3,
-          "description": "XB, Stadia: X \/ DS4: Square \/ Nintendo: Y"
+          "description": "XB, Stadia: X / DS4: Square / Nintendo: Y"
         }
       ]
     },
@@ -315,7 +315,7 @@
         {
           "deviceId": 2,
           "buttonId": 10,
-          "description": "XB, Nintendo: RightStick \/ DS4, Stadia: R3"
+          "description": "XB, Nintendo: RightStick / DS4, Stadia: R3"
         }
       ]
     },
@@ -455,7 +455,7 @@
         {
           "deviceId": 2,
           "buttonId": 2,
-          "description": "XB, Stadia: B \/ DS4: Circle \/ Nintendo: A"
+          "description": "XB, Stadia: B / DS4: Circle / Nintendo: A"
         }
       ]
     },
@@ -465,7 +465,7 @@
         {
           "deviceId": 2,
           "buttonId": 4,
-          "description": "XB, Stadia: Y \/ DS4: Triangle \/ Nintendo: X"
+          "description": "XB, Stadia: Y / DS4: Triangle / Nintendo: X"
         }
       ]
     },
@@ -475,7 +475,7 @@
         {
           "deviceId": 2,
           "buttonId": 5,
-          "description": "XB: LeftShoulder \/ DS4, Stadia: L1 \/ Nintendo: L"
+          "description": "XB: LeftShoulder / DS4, Stadia: L1 / Nintendo: L"
         }
       ]
     },
@@ -485,7 +485,7 @@
         {
           "deviceId": 2,
           "buttonId": 6,
-          "description": "XB: RightShoulder \/ DS4, Stadia: R1 \/ Nintendo: R"
+          "description": "XB: RightShoulder / DS4, Stadia: R1 / Nintendo: R"
         }
       ]
     },
@@ -495,7 +495,7 @@
         {
           "deviceId": 2,
           "buttonId": 7,
-          "description": "XB: View \/ XB360: Back \/ DS4: Share \/ Nintendo: Minus \/ DS3: Select \/ Stadia: Options \/ NvidiaShield: Back \/ SNES: Select"
+          "description": "XB: View / XB360: Back / DS4: Share / Nintendo: Minus / DS3: Select / Stadia: Options / NvidiaShield: Back / SNES: Select"
         }
       ]
     },
@@ -505,7 +505,7 @@
         {
           "deviceId": 2,
           "buttonId": 8,
-          "description": "XB, Stadia: Menu \/ XB360: Start \/ DS4: Options \/ Nintendo: Plus \/ DS3: Start \/ NvidiaShield: Start \/ SNES: Start"
+          "description": "XB, Stadia: Menu / XB360: Start / DS4: Options / Nintendo: Plus / DS3: Start / NvidiaShield: Start / SNES: Start"
         }
       ]
     },
@@ -515,7 +515,7 @@
         {
           "deviceId": 2,
           "buttonId": 9,
-          "description": "XB, Nintendo: LeftStick \/ DS4, Stadia: L3"
+          "description": "XB, Nintendo: LeftStick / DS4, Stadia: L3"
         }
       ]
     },
@@ -525,7 +525,7 @@
         {
           "deviceId": 2,
           "buttonId": 11,
-          "description": "XB, Nintendo, Flydigi: Home \/ DS4: PS \/ Stadia: Stadia \/ NvidiaShield: Nvidia"
+          "description": "XB, Nintendo, Flydigi: Home / DS4: PS / Stadia: Stadia / NvidiaShield: Nvidia"
         }
       ]
     },
@@ -611,7 +611,7 @@
           "gamepad": {
             "id": 1,
             "buttonId": 9,
-            "description": "XB, Nintendo: LeftStick \/ DS4, Stadia: L3"
+            "description": "XB, Nintendo: LeftStick / DS4, Stadia: L3"
           }
         }
       ]
@@ -631,7 +631,7 @@
           "gamepad": {
             "id": 1,
             "buttonId": 9,
-            "description": "XB, Nintendo: LeftStick \/ DS4, Stadia: L3"
+            "description": "XB, Nintendo: LeftStick / DS4, Stadia: L3"
           }
         }
       ]
@@ -651,7 +651,7 @@
           "gamepad": {
             "id": 1,
             "buttonId": 9,
-            "description": "XB, Nintendo: LeftStick \/ DS4, Stadia: L3"
+            "description": "XB, Nintendo: LeftStick / DS4, Stadia: L3"
           }
         }
       ]
@@ -671,7 +671,7 @@
           "gamepad": {
             "id": 1,
             "buttonId": 9,
-            "description": "XB, Nintendo: LeftStick \/ DS4, Stadia: L3"
+            "description": "XB, Nintendo: LeftStick / DS4, Stadia: L3"
           }
         }
       ]
@@ -712,7 +712,7 @@
           "gamepad": {
             "id": 1,
             "buttonId": 1,
-            "description": "XB, Stadia: A \/ DS4: Cross \/ Nintendo: B"
+            "description": "XB, Stadia: A / DS4: Cross / Nintendo: B"
           }
         }
       ]
@@ -733,7 +733,7 @@
           "gamepad": {
             "id": 1,
             "buttonId": 2,
-            "description": "XB, Stadia: B \/ DS4: Circle \/ Nintendo: A"
+            "description": "XB, Stadia: B / DS4: Circle / Nintendo: A"
           }
         }
       ]
@@ -754,7 +754,7 @@
           "gamepad": {
             "id": 1,
             "buttonId": 3,
-            "description": "XB, Stadia: X \/ DS4: Square \/ Nintendo: Y"
+            "description": "XB, Stadia: X / DS4: Square / Nintendo: Y"
           }
         }
       ]
@@ -775,7 +775,7 @@
           "gamepad": {
             "id": 1,
             "buttonId": 4,
-            "description": "XB, Stadia: Y \/ DS4: Triangle \/ Nintendo: X"
+            "description": "XB, Stadia: Y / DS4: Triangle / Nintendo: X"
           }
         }
       ]
@@ -796,7 +796,7 @@
           "gamepad": {
             "id": 1,
             "buttonId": 5,
-            "description": "XB: LeftShoulder \/ DS4, Stadia: L1 \/ Nintendo: L"
+            "description": "XB: LeftShoulder / DS4, Stadia: L1 / Nintendo: L"
           }
         }
       ]
@@ -817,7 +817,7 @@
           "gamepad": {
             "id": 1,
             "buttonId": 6,
-            "description": "XB: RightShoulder \/ DS4, Stadia: R1 \/ Nintendo: R"
+            "description": "XB: RightShoulder / DS4, Stadia: R1 / Nintendo: R"
           }
         }
       ]
@@ -838,7 +838,7 @@
           "gamepad": {
             "id": 1,
             "buttonId": 7,
-            "description": "XB: View \/ XB360: Back \/ DS4: Share \/ Nintendo: Minus \/ DS3: Select \/ Stadia: Options \/ NvidiaShield: Back \/ SNES: Select"
+            "description": "XB: View / XB360: Back / DS4: Share / Nintendo: Minus / DS3: Select / Stadia: Options / NvidiaShield: Back / SNES: Select"
           }
         }
       ]
@@ -859,7 +859,7 @@
           "gamepad": {
             "id": 1,
             "buttonId": 8,
-            "description": "XB, Stadia: Menu \/ XB360: Start \/ DS4: Options \/ Nintendo: Plus \/ DS3: Start \/ NvidiaShield: Start \/ SNES: Start"
+            "description": "XB, Stadia: Menu / XB360: Start / DS4: Options / Nintendo: Plus / DS3: Start / NvidiaShield: Start / SNES: Start"
           }
         }
       ]
@@ -880,7 +880,7 @@
           "gamepad": {
             "id": 1,
             "buttonId": 9,
-            "description": "XB, Nintendo: LeftStick \/ DS4, Stadia: L3"
+            "description": "XB, Nintendo: LeftStick / DS4, Stadia: L3"
           }
         }
       ]
@@ -919,7 +919,7 @@
           "gamepad": {
             "id": 1,
             "buttonId": 11,
-            "description": "XB, Nintendo, Flydigi: Home \/ DS4: PS \/ Stadia: Stadia \/ NvidiaShield: Nvidia"
+            "description": "XB, Nintendo, Flydigi: Home / DS4: PS / Stadia: Stadia / NvidiaShield: Nvidia"
           }
         }
       ]
@@ -1249,7 +1249,7 @@
           "gamepad": {
             "id": 1,
             "buttonId": 1,
-            "description": "XB, Stadia: A \/ DS4: Cross \/ Nintendo: B"
+            "description": "XB, Stadia: A / DS4: Cross / Nintendo: B"
           }
         }
       ]
@@ -1269,7 +1269,7 @@
           "gamepad": {
             "id": 1,
             "buttonId": 3,
-            "description": "XB, Stadia: X \/ DS4: Square \/ Nintendo: Y"
+            "description": "XB, Stadia: X / DS4: Square / Nintendo: Y"
           }
         }
       ]
@@ -1304,7 +1304,7 @@
           "gamepad": {
             "id": 1,
             "buttonId": 9,
-            "description": "XB, Nintendo: LeftStick \/ DS4, Stadia: L3"
+            "description": "XB, Nintendo: LeftStick / DS4, Stadia: L3"
           }
         }
       ]
@@ -1324,7 +1324,7 @@
           "gamepad": {
             "id": 1,
             "buttonId": 9,
-            "description": "XB, Nintendo: LeftStick \/ DS4, Stadia: L3"
+            "description": "XB, Nintendo: LeftStick / DS4, Stadia: L3"
           }
         }
       ]
@@ -1344,7 +1344,7 @@
           "gamepad": {
             "id": 1,
             "buttonId": 9,
-            "description": "XB, Nintendo: LeftStick \/ DS4, Stadia: L3"
+            "description": "XB, Nintendo: LeftStick / DS4, Stadia: L3"
           }
         }
       ]
@@ -1364,7 +1364,7 @@
           "gamepad": {
             "id": 1,
             "buttonId": 9,
-            "description": "XB, Nintendo: LeftStick \/ DS4, Stadia: L3"
+            "description": "XB, Nintendo: LeftStick / DS4, Stadia: L3"
           }
         }
       ]
@@ -1472,7 +1472,7 @@
           "gamepad": {
             "id": 1,
             "buttonId": 9,
-            "description": "XB, Nintendo: LeftStick \/ DS4, Stadia: L3"
+            "description": "XB, Nintendo: LeftStick / DS4, Stadia: L3"
           }
         }
       ]
@@ -1492,7 +1492,7 @@
           "gamepad": {
             "id": 1,
             "buttonId": 9,
-            "description": "XB, Nintendo: LeftStick \/ DS4, Stadia: L3"
+            "description": "XB, Nintendo: LeftStick / DS4, Stadia: L3"
           }
         }
       ]
@@ -1512,7 +1512,7 @@
           "gamepad": {
             "id": 1,
             "buttonId": 9,
-            "description": "XB, Nintendo: LeftStick \/ DS4, Stadia: L3"
+            "description": "XB, Nintendo: LeftStick / DS4, Stadia: L3"
           }
         }
       ]
@@ -1532,7 +1532,7 @@
           "gamepad": {
             "id": 1,
             "buttonId": 9,
-            "description": "XB, Nintendo: LeftStick \/ DS4, Stadia: L3"
+            "description": "XB, Nintendo: LeftStick / DS4, Stadia: L3"
           }
         }
       ]
@@ -1552,7 +1552,7 @@
           "gamepad": {
             "id": 1,
             "buttonId": 9,
-            "description": "XB, Nintendo: LeftStick \/ DS4, Stadia: L3"
+            "description": "XB, Nintendo: LeftStick / DS4, Stadia: L3"
           }
         }
       ]
@@ -1573,7 +1573,7 @@
           "gamepad": {
             "id": 1,
             "buttonId": 1,
-            "description": "XB, Stadia: A \/ DS4: Cross \/ Nintendo: B"
+            "description": "XB, Stadia: A / DS4: Cross / Nintendo: B"
           }
         }
       ]
@@ -1594,7 +1594,7 @@
           "gamepad": {
             "id": 1,
             "buttonId": 2,
-            "description": "XB, Stadia: B \/ DS4: Circle \/ Nintendo: A"
+            "description": "XB, Stadia: B / DS4: Circle / Nintendo: A"
           }
         }
       ]
@@ -1615,7 +1615,7 @@
           "gamepad": {
             "id": 1,
             "buttonId": 3,
-            "description": "XB, Stadia: X \/ DS4: Square \/ Nintendo: Y"
+            "description": "XB, Stadia: X / DS4: Square / Nintendo: Y"
           }
         }
       ]
@@ -1636,7 +1636,7 @@
           "gamepad": {
             "id": 1,
             "buttonId": 4,
-            "description": "XB, Stadia: Y \/ DS4: Triangle \/ Nintendo: X"
+            "description": "XB, Stadia: Y / DS4: Triangle / Nintendo: X"
           }
         }
       ]
@@ -1657,7 +1657,7 @@
           "gamepad": {
             "id": 1,
             "buttonId": 5,
-            "description": "XB: LeftShoulder \/ DS4, Stadia: L1 \/ Nintendo: L"
+            "description": "XB: LeftShoulder / DS4, Stadia: L1 / Nintendo: L"
           }
         }
       ]
@@ -1678,7 +1678,7 @@
           "gamepad": {
             "id": 1,
             "buttonId": 6,
-            "description": "XB: RightShoulder \/ DS4, Stadia: R1 \/ Nintendo: R"
+            "description": "XB: RightShoulder / DS4, Stadia: R1 / Nintendo: R"
           }
         }
       ]
@@ -1699,7 +1699,7 @@
           "gamepad": {
             "id": 1,
             "buttonId": 7,
-            "description": "XB: View \/ XB360: Back \/ DS4: Share \/ Nintendo: Minus \/ DS3: Select \/ Stadia: Options \/ NvidiaShield: Back \/ SNES: Select"
+            "description": "XB: View / XB360: Back / DS4: Share / Nintendo: Minus / DS3: Select / Stadia: Options / NvidiaShield: Back / SNES: Select"
           }
         }
       ]
@@ -1720,7 +1720,7 @@
           "gamepad": {
             "id": 1,
             "buttonId": 8,
-            "description": "XB, Stadia: Menu \/ XB360: Start \/ DS4: Options \/ Nintendo: Plus \/ DS3: Start \/ NvidiaShield: Start \/ SNES: Start"
+            "description": "XB, Stadia: Menu / XB360: Start / DS4: Options / Nintendo: Plus / DS3: Start / NvidiaShield: Start / SNES: Start"
           }
         }
       ]
@@ -1741,7 +1741,7 @@
           "gamepad": {
             "id": 1,
             "buttonId": 9,
-            "description": "XB, Nintendo: LeftStick \/ DS4, Stadia: L3"
+            "description": "XB, Nintendo: LeftStick / DS4, Stadia: L3"
           }
         }
       ]
@@ -1780,7 +1780,7 @@
           "gamepad": {
             "id": 1,
             "buttonId": 11,
-            "description": "XB, Nintendo, Flydigi: Home \/ DS4: PS \/ Stadia: Stadia \/ NvidiaShield: Nvidia"
+            "description": "XB, Nintendo, Flydigi: Home / DS4: PS / Stadia: Stadia / NvidiaShield: Nvidia"
           }
         }
       ]
