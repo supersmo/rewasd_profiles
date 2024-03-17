@@ -1,0 +1,1121 @@
+{
+  "schemaVersion": 3.0,
+  "appVersion": "7.1.0",
+  "config": {
+    "appName": "Mari0",
+    "processNames": [
+      "alesan99s_entities_13.1.exe"
+    ],
+    "minTimeUnit": 1
+  },
+  "devices": {
+    "groups": [
+      {
+        "id": 1,
+        "name": "keyboard"
+      },
+      {
+        "id": 2,
+        "name": "mouse"
+      }
+    ],
+    "hardware": [
+      {
+        "id": 1,
+        "name": "gamepad",
+        "default": {
+          "sticks": [
+            {
+              "name": "right",
+              "rotation": -90
+            }
+          ],
+          "touchpads": [
+            {
+              "id": 2,
+              "mode": "analog",
+              "trackballFriction": 50
+            }
+          ]
+        },
+        "applyToPhysicalPriority": true
+      },
+      {
+        "groupId": 1,
+        "id": 11,
+        "name": "keyboard",
+        "type": "standard"
+      },
+      {
+        "groupId": 2,
+        "id": 23,
+        "name": "mouse"
+      }
+    ],
+    "virtual": {
+      "gamepads": [
+        {
+          "id": 1,
+          "type": "xboxonebt"
+        }
+      ]
+    }
+  },
+  "shifts": [
+    {
+      "id": 2,
+      "type": "radialMenu"
+    }
+  ],
+  "masks": [
+    {
+      "id": 1,
+      "set": [
+        {
+          "deviceId": 1,
+          "buttonId": 2,
+          "description": "XB, Stadia: B / DS4: Circle / Nintendo: A"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "set": [
+        {
+          "deviceId": 1,
+          "buttonId": 4,
+          "description": "XB, Stadia: Y / DS4: Triangle / Nintendo: X"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "set": [
+        {
+          "deviceId": 1,
+          "buttonId": 7,
+          "description": "XB: View / XB360: Back / DS4: Share / Nintendo: Minus / DS3: Select / Stadia: Options / NvidiaShield: Back / SNES: Select"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "set": [
+        {
+          "deviceId": 1,
+          "buttonId": 40,
+          "description": "LeftStickUp"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "set": [
+        {
+          "deviceId": 1,
+          "buttonId": 41,
+          "description": "LeftStickDown"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "set": [
+        {
+          "deviceId": 1,
+          "buttonId": 42,
+          "description": "LeftStickLeft"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "set": [
+        {
+          "deviceId": 1,
+          "buttonId": 43,
+          "description": "LeftStickRight"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "set": [
+        {
+          "deviceId": 1,
+          "buttonId": 47,
+          "description": "RightStickUp"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "set": [
+        {
+          "deviceId": 1,
+          "buttonId": 48,
+          "description": "RightStickDown"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "set": [
+        {
+          "deviceId": 1,
+          "buttonId": 49,
+          "description": "RightStickLeft"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "set": [
+        {
+          "deviceId": 1,
+          "buttonId": 50,
+          "description": "RightStickRight"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "set": [
+        {
+          "deviceId": 1,
+          "buttonId": 51,
+          "description": "BtnLeftTrigger"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "set": [
+        {
+          "deviceId": 1,
+          "buttonId": 55,
+          "description": "BtnRightTrigger"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "set": [
+        {
+          "deviceId": 1,
+          "buttonId": 6,
+          "description": "XB: RightShoulder / DS4, Stadia: R1 / Nintendo: R"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "set": [
+        {
+          "deviceId": 1,
+          "buttonId": 100,
+          "description": "Right TrackPad up"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "set": [
+        {
+          "deviceId": 1,
+          "buttonId": 101,
+          "description": "Right TrackPad down"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "set": [
+        {
+          "deviceId": 1,
+          "buttonId": 102,
+          "description": "Right TrackPad left"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "set": [
+        {
+          "deviceId": 1,
+          "buttonId": 103,
+          "description": "Right TrackPad right"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "set": [
+        {
+          "deviceId": 11,
+          "buttonId": 1,
+          "description": "DIK_ESCAPE"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "set": [
+        {
+          "deviceId": 11,
+          "buttonId": 28,
+          "description": "DIK_RETURN"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "set": [
+        {
+          "deviceId": 11,
+          "buttonId": 200,
+          "description": "DIK_UP"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "set": [
+        {
+          "deviceId": 11,
+          "buttonId": 203,
+          "description": "DIK_LEFT"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "set": [
+        {
+          "deviceId": 11,
+          "buttonId": 205,
+          "description": "DIK_RIGHT"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "set": [
+        {
+          "deviceId": 11,
+          "buttonId": 208,
+          "description": "DIK_DOWN"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "set": [
+        {
+          "deviceId": 23,
+          "buttonId": 1,
+          "description": "MOUSE_BTN_1"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "set": [
+        {
+          "deviceId": 23,
+          "buttonId": 2,
+          "description": "MOUSE_BTN_2"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "set": [
+        {
+          "deviceId": 23,
+          "buttonId": 64,
+          "description": "MouseStickUp"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "set": [
+        {
+          "deviceId": 23,
+          "buttonId": 65,
+          "description": "MouseStickDown"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "set": [
+        {
+          "deviceId": 23,
+          "buttonId": 66,
+          "description": "MouseStickLeft"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "set": [
+        {
+          "deviceId": 23,
+          "buttonId": 67,
+          "description": "MouseStickRight"
+        }
+      ]
+    }
+  ],
+  "commands": [
+    {
+      "id": 1,
+      "type": 133,
+      "name": "OVERLAY_MENU_CANCEL"
+    },
+    {
+      "id": 2,
+      "type": 132,
+      "name": "OVERLAY_MENU_APPLY"
+    },
+    {
+      "id": 3,
+      "type": 134,
+      "name": "OVERLAY_MENU_UP"
+    },
+    {
+      "id": 4,
+      "type": 135,
+      "name": "OVERLAY_MENU_DOWN"
+    },
+    {
+      "id": 5,
+      "type": 137,
+      "name": "OVERLAY_MENU_LEFT"
+    },
+    {
+      "id": 6,
+      "type": 136,
+      "name": "OVERLAY_MENU_RIGHT"
+    }
+  ],
+  "mappings": [
+    {
+      "condition": {
+        "mask": {
+          "id": 1,
+          "activator": {
+            "type": "single",
+            "mode": "hold_until_release"
+          }
+        }
+      },
+      "macros": [
+        {
+          "gamepad": {
+            "id": 1,
+            "buttonId": 1,
+            "description": "XB, Stadia: A / DS4: Cross / Nintendo: B"
+          }
+        }
+      ]
+    },
+    {
+      "condition": {
+        "mask": {
+          "id": 2,
+          "activator": {
+            "type": "single",
+            "mode": "hold_until_release"
+          }
+        }
+      },
+      "macros": [
+        {
+          "gamepad": {
+            "id": 1,
+            "buttonId": 3,
+            "description": "XB, Stadia: X / DS4: Square / Nintendo: Y"
+          }
+        }
+      ]
+    },
+    {
+      "condition": {
+        "mask": {
+          "id": 3,
+          "activator": {
+            "type": "single",
+            "mode": "hold_until_release"
+          }
+        }
+      },
+      "macros": [
+        {
+          "gamepad": {
+            "id": 1,
+            "buttonId": 2,
+            "description": "XB, Stadia: B / DS4: Circle / Nintendo: A"
+          }
+        }
+      ]
+    },
+    {
+      "condition": {
+        "mask": {
+          "id": 4,
+          "activator": {
+            "type": "single",
+            "mode": "hold_until_release"
+          }
+        }
+      },
+      "macros": [
+        {
+          "gamepad": {
+            "id": 1,
+            "buttonId": 33,
+            "description": "DpadUp"
+          }
+        }
+      ]
+    },
+    {
+      "condition": {
+        "mask": {
+          "id": 5,
+          "activator": {
+            "type": "single",
+            "mode": "hold_until_release"
+          }
+        }
+      },
+      "macros": [
+        {
+          "gamepad": {
+            "id": 1,
+            "buttonId": 34,
+            "description": "DpadDown"
+          }
+        }
+      ]
+    },
+    {
+      "condition": {
+        "mask": {
+          "id": 6,
+          "activator": {
+            "type": "single",
+            "mode": "hold_until_release"
+          }
+        }
+      },
+      "macros": [
+        {
+          "gamepad": {
+            "id": 1,
+            "buttonId": 35,
+            "description": "DpadLeft"
+          }
+        }
+      ]
+    },
+    {
+      "condition": {
+        "mask": {
+          "id": 7,
+          "activator": {
+            "type": "single",
+            "mode": "hold_until_release"
+          }
+        }
+      },
+      "macros": [
+        {
+          "gamepad": {
+            "id": 1,
+            "buttonId": 36,
+            "description": "DpadRight"
+          }
+        }
+      ]
+    },
+    {
+      "condition": {
+        "mask": {
+          "id": 8,
+          "activator": {
+            "type": "single",
+            "mode": "hold_until_release"
+          }
+        }
+      },
+      "macros": [
+        {
+          "gamepad": {
+            "id": 1,
+            "buttonId": 48,
+            "description": "RightStickDown",
+            "absolute": true,
+            "value": 32767
+          }
+        }
+      ]
+    },
+    {
+      "condition": {
+        "mask": {
+          "id": 9,
+          "activator": {
+            "type": "single",
+            "mode": "hold_until_release"
+          }
+        }
+      },
+      "macros": [
+        {
+          "gamepad": {
+            "id": 1,
+            "buttonId": 47,
+            "description": "RightStickUp",
+            "absolute": true,
+            "value": 32767
+          }
+        }
+      ]
+    },
+    {
+      "condition": {
+        "mask": {
+          "id": 10,
+          "activator": {
+            "type": "single",
+            "mode": "hold_until_release"
+          }
+        }
+      },
+      "macros": [
+        {
+          "gamepad": {
+            "id": 1,
+            "buttonId": 49,
+            "description": "RightStickLeft",
+            "absolute": true,
+            "value": 32767
+          }
+        }
+      ]
+    },
+    {
+      "condition": {
+        "mask": {
+          "id": 11,
+          "activator": {
+            "type": "single",
+            "mode": "hold_until_release"
+          }
+        }
+      },
+      "macros": [
+        {
+          "gamepad": {
+            "id": 1,
+            "buttonId": 50,
+            "description": "RightStickRight",
+            "absolute": true,
+            "value": 32767
+          }
+        }
+      ]
+    },
+    {
+      "condition": {
+        "mask": {
+          "id": 12,
+          "activator": {
+            "type": "single",
+            "mode": "hold_until_release"
+          }
+        }
+      },
+      "macros": [
+        {
+          "gamepad": {
+            "id": 1,
+            "buttonId": 4,
+            "description": "XB, Stadia: Y / DS4: Triangle / Nintendo: X"
+          }
+        }
+      ]
+    },
+    {
+      "condition": {
+        "mask": {
+          "id": 13,
+          "activator": {
+            "type": "single",
+            "mode": "hold_until_release"
+          }
+        }
+      },
+      "macros": [
+        {
+          "gamepad": {
+            "id": 1,
+            "buttonId": 3,
+            "description": "XB, Stadia: X / DS4: Square / Nintendo: Y"
+          }
+        }
+      ]
+    },
+    {
+      "condition": {
+        "shiftId": 2,
+        "mask": {
+          "id": 14,
+          "activator": {
+            "type": "single",
+            "mode": "hold_until_release"
+          }
+        }
+      },
+      "macros": [
+        {
+          "command": {
+            "id": 1
+          }
+        }
+      ]
+    },
+    {
+      "condition": {
+        "shiftId": 2,
+        "mask": {
+          "id": 13,
+          "activator": {
+            "type": "single",
+            "mode": "hold_until_release"
+          }
+        }
+      },
+      "macros": [
+        {
+          "command": {
+            "id": 2
+          }
+        }
+      ]
+    },
+    {
+      "condition": {
+        "shiftId": 2,
+        "mask": {
+          "id": 15,
+          "activator": {
+            "type": "single",
+            "mode": "hold_until_release"
+          }
+        }
+      },
+      "macros": [
+        {
+          "command": {
+            "id": 3
+          }
+        }
+      ]
+    },
+    {
+      "condition": {
+        "shiftId": 2,
+        "mask": {
+          "id": 16,
+          "activator": {
+            "type": "single",
+            "mode": "hold_until_release"
+          }
+        }
+      },
+      "macros": [
+        {
+          "command": {
+            "id": 4
+          }
+        }
+      ]
+    },
+    {
+      "condition": {
+        "shiftId": 2,
+        "mask": {
+          "id": 17,
+          "activator": {
+            "type": "single",
+            "mode": "hold_until_release"
+          }
+        }
+      },
+      "macros": [
+        {
+          "command": {
+            "id": 5
+          }
+        }
+      ]
+    },
+    {
+      "condition": {
+        "shiftId": 2,
+        "mask": {
+          "id": 18,
+          "activator": {
+            "type": "single",
+            "mode": "hold_until_release"
+          }
+        }
+      },
+      "macros": [
+        {
+          "command": {
+            "id": 6
+          }
+        }
+      ]
+    },
+    {
+      "condition": {
+        "hardware": {
+          "deviceId": 1,
+          "stick": "right",
+          "axis": "y"
+        }
+      },
+      "hardware": {
+        "stick": "right",
+        "axis": "y",
+        "inverted": true
+      }
+    },
+    {
+      "condition": {
+        "shiftId": 2,
+        "mask": {
+          "id": 19,
+          "activator": {
+            "type": "single",
+            "mode": "hold_until_release"
+          }
+        }
+      },
+      "macros": [
+        {
+          "command": {
+            "id": 1
+          }
+        }
+      ]
+    },
+    {
+      "condition": {
+        "shiftId": 2,
+        "mask": {
+          "id": 20,
+          "activator": {
+            "type": "single",
+            "mode": "hold_until_release"
+          }
+        }
+      },
+      "macros": [
+        {
+          "command": {
+            "id": 2
+          }
+        }
+      ]
+    },
+    {
+      "condition": {
+        "shiftId": 2,
+        "mask": {
+          "id": 21,
+          "activator": {
+            "type": "single",
+            "mode": "hold_until_release"
+          }
+        }
+      },
+      "macros": [
+        {
+          "command": {
+            "id": 3
+          }
+        }
+      ]
+    },
+    {
+      "condition": {
+        "shiftId": 2,
+        "mask": {
+          "id": 22,
+          "activator": {
+            "type": "single",
+            "mode": "hold_until_release"
+          }
+        }
+      },
+      "macros": [
+        {
+          "command": {
+            "id": 5
+          }
+        }
+      ]
+    },
+    {
+      "condition": {
+        "shiftId": 2,
+        "mask": {
+          "id": 23,
+          "activator": {
+            "type": "single",
+            "mode": "hold_until_release"
+          }
+        }
+      },
+      "macros": [
+        {
+          "command": {
+            "id": 6
+          }
+        }
+      ]
+    },
+    {
+      "condition": {
+        "shiftId": 2,
+        "mask": {
+          "id": 24,
+          "activator": {
+            "type": "single",
+            "mode": "hold_until_release"
+          }
+        }
+      },
+      "macros": [
+        {
+          "command": {
+            "id": 4
+          }
+        }
+      ]
+    },
+    {
+      "condition": {
+        "shiftId": 2,
+        "hardware": {
+          "deviceId": 11,
+          "buttonId": 1,
+          "description": "DIK_ESCAPE"
+        }
+      },
+      "hardware": {
+        "unmap": true
+      }
+    },
+    {
+      "condition": {
+        "shiftId": 2,
+        "hardware": {
+          "deviceId": 11,
+          "buttonId": 200,
+          "description": "DIK_UP"
+        }
+      },
+      "hardware": {
+        "unmap": true
+      }
+    },
+    {
+      "condition": {
+        "shiftId": 2,
+        "hardware": {
+          "deviceId": 11,
+          "buttonId": 203,
+          "description": "DIK_LEFT"
+        }
+      },
+      "hardware": {
+        "unmap": true
+      }
+    },
+    {
+      "condition": {
+        "shiftId": 2,
+        "hardware": {
+          "deviceId": 11,
+          "buttonId": 205,
+          "description": "DIK_RIGHT"
+        }
+      },
+      "hardware": {
+        "unmap": true
+      }
+    },
+    {
+      "condition": {
+        "shiftId": 2,
+        "hardware": {
+          "deviceId": 11,
+          "buttonId": 208,
+          "description": "DIK_DOWN"
+        }
+      },
+      "hardware": {
+        "unmap": true
+      }
+    },
+    {
+      "condition": {
+        "shiftId": 2,
+        "mask": {
+          "id": 25,
+          "activator": {
+            "type": "single",
+            "mode": "hold_until_release"
+          }
+        }
+      },
+      "macros": [
+        {
+          "command": {
+            "id": 2
+          }
+        }
+      ]
+    },
+    {
+      "condition": {
+        "shiftId": 2,
+        "mask": {
+          "id": 26,
+          "activator": {
+            "type": "single",
+            "mode": "hold_until_release"
+          }
+        }
+      },
+      "macros": [
+        {
+          "command": {
+            "id": 1
+          }
+        }
+      ]
+    },
+    {
+      "condition": {
+        "shiftId": 2,
+        "mask": {
+          "id": 27,
+          "activator": {
+            "type": "single",
+            "mode": "hold_until_release"
+          }
+        }
+      },
+      "macros": [
+        {
+          "command": {
+            "id": 3
+          }
+        }
+      ]
+    },
+    {
+      "condition": {
+        "shiftId": 2,
+        "mask": {
+          "id": 28,
+          "activator": {
+            "type": "single",
+            "mode": "hold_until_release"
+          }
+        }
+      },
+      "macros": [
+        {
+          "command": {
+            "id": 4
+          }
+        }
+      ]
+    },
+    {
+      "condition": {
+        "shiftId": 2,
+        "mask": {
+          "id": 29,
+          "activator": {
+            "type": "single",
+            "mode": "hold_until_release"
+          }
+        }
+      },
+      "macros": [
+        {
+          "command": {
+            "id": 5
+          }
+        }
+      ]
+    },
+    {
+      "condition": {
+        "shiftId": 2,
+        "mask": {
+          "id": 30,
+          "activator": {
+            "type": "single",
+            "mode": "hold_until_release"
+          }
+        }
+      },
+      "macros": [
+        {
+          "command": {
+            "id": 6
+          }
+        }
+      ]
+    },
+    {
+      "condition": {
+        "shiftId": 2,
+        "hardware": {
+          "deviceId": 23,
+          "buttonId": 1,
+          "description": "MOUSE_BTN_1"
+        }
+      },
+      "hardware": {
+        "unmap": true
+      }
+    },
+    {
+      "condition": {
+        "shiftId": 2,
+        "hardware": {
+          "deviceId": 23,
+          "buttonId": 2,
+          "description": "MOUSE_BTN_2"
+        }
+      },
+      "hardware": {
+        "unmap": true
+      }
+    }
+  ]
+}
