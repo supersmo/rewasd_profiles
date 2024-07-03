@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 3.0,
+  "appVersion": "7.3.0",
+  "config": {
+    "appName": "Sunken (12) 4 XBox \u002B 8 DS4",
+    "processNames": [
+      "Pirates.exe"
+    ],
+    "minTimeUnit": 1
+  },
+  "devices": {
+    "hardware": [
+      {
+        "id": 1,
+        "name": "gamepad",
+        "default": {
+          "touchpads": [
+            {
+              "id": 2,
+              "mode": "analog",
+              "trackballFriction": 50
+            }
+          ]
+        },
+        "convertToVirtual": true
+      }
+    ],
+    "virtual": {
+      "gamepads": [
+        {
+          "id": 1,
+          "type": "ds4"
+        }
+      ]
+    }
+  }
+}

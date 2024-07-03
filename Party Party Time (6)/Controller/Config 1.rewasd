@@ -1,10 +1,10 @@
 {
   "schemaVersion": 3.0,
-  "appVersion": "7.1.0",
+  "appVersion": "7.3.0",
   "config": {
-    "appName": "Fling To The Finish",
+    "appName": "Party Party Time (6)",
     "processNames": [
-      "Fling to the Finish.exe"
+      "PARTY_PARTY_TIME.exe"
     ],
     "minTimeUnit": 1
   },
