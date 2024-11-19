@@ -1,8 +1,8 @@
 {
   "schemaVersion": 3.0,
-  "appVersion": "7.1.0",
+  "appVersion": "8.0.0",
   "config": {
-    "appName": "Pax Britannic (4)",
+    "appName": "Pax Britannica (4)",
     "processNames": [
       "Pax Britannica.exe"
     ],
