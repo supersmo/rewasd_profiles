@@ -2,7 +2,7 @@
   "schemaVersion": 3.0,
   "appVersion": "9.0.0",
   "config": {
-    "appName": "To PS4",
+    "appName": "To PS4 Auto",
     "processNames": [
       "SpiderHeckApp.exe",
       "Chalo_Chalo.exe",
