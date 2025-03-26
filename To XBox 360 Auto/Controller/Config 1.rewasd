@@ -1,8 +1,8 @@
 {
   "schemaVersion": 3.0,
-  "appVersion": "9.0.0",
+  "appVersion": "9.1.0",
   "config": {
-    "appName": "To XBox",
+    "appName": "To XBox 360 Auto",
     "processNames": [
       "project_knossos_03.exe",
       "couch_coop_027.exe"
