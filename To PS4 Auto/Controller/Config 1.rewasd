@@ -5,11 +5,9 @@
     "appName": "To PS4 Auto",
     "processNames": [
       "SpiderHeckApp.exe",
-      "Chalo_Chalo.exe",
       "Fling to the Finish.exe",
       "Gang Beasts.exe",
       "PARTY_PARTY_TIME.exe",
-      "Pin Puck.exe",
       "football.exe",
       "quake2ex_steam.exe",
       "Eight Dragons 2.exe",
@@ -18,7 +16,11 @@
       "Brawls.exe",
       "Wrestledunk_Sports.exe",
       "Unspottable.exe",
-      "PlateUp.exe"
+      "PlateUp.exe",
+      "ShroomSiege.exe",
+      "Spring Dogs.exe",
+      "Pin Puck.exe",
+      "Chalo_Chalo.exe"
     ],
     "minTimeUnit": 1
   },

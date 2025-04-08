@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 3.0,
+  "appVersion": "9.1.0",
+  "config": {
+    "appName": "Shatter - TATE",
+    "minTimeUnit": 1
+  },
+  "devices": {
+    "hardware": [
+      {
+        "id": 1,
+        "name": "gamepad",
+        "default": {
+          "sticks": [
+            {
+              "name": "left",
+              "rotation": -90
+            },
+            {
+              "name": "right",
+              "rotation": -90
+            }
+          ],
+          "touchpads": [
+            {
+              "id": 2,
+              "mode": "analog",
+              "trackballFriction": 50
+            }
+          ]
+        },
+        "convertToVirtual": true
+      }
+    ],
+    "virtual": {
+      "gamepads": [
+        {
+          "id": 1,
+          "type": "360"
+        }
+      ]
+    }
+  },
+  "masks": [
+    {
+      "id": 1,
+      "set": [
+        {
+          "deviceId": 1,
+          "buttonId": 33,
+          "description": "DpadUp"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "set": [
+        {
+          "deviceId": 1,
+          "buttonId": 34,
+          "description": "DpadDown"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "set": [
+        {
+          "deviceId": 1,
+          "buttonId": 35,
+          "description": "DpadLeft"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "set": [
+        {
+          "deviceId": 1,
+          "buttonId": 36,
+          "description": "DpadRight"
+        }
+      ]
+    }
+  ],
+  "mappings": [
+    {
+      "condition": {
+        "mask": {
+          "id": 1,
+          "activator": {
+            "type": "single",
+            "mode": "hold_until_release"
+          }
+        }
+      },
+      "macros": [
+        {
+          "gamepad": {
+            "id": 1,
+            "buttonId": 36,
+            "description": "DpadRight"
+          }
+        }
+      ]
+    },
+    {
+      "condition": {
+        "mask": {
+          "id": 2,
+          "activator": {
+            "type": "single",
+            "mode": "hold_until_release"
+          }
+        }
+      },
+      "macros": [
+        {
+          "gamepad": {
+            "id": 1,
+            "buttonId": 35,
+            "description": "DpadLeft"
+          }
+        }
+      ]
+    },
+    {
+      "condition": {
+        "mask": {
+          "id": 3,
+          "activator": {
+            "type": "single",
+            "mode": "hold_until_release"
+          }
+        }
+      },
+      "macros": [
+        {
+          "gamepad": {
+            "id": 1,
+            "buttonId": 33,
+            "description": "DpadUp"
+          }
+        }
+      ]
+    },
+    {
+      "condition": {
+        "mask": {
+          "id": 4,
+          "activator": {
+            "type": "single",
+            "mode": "hold_until_release"
+          }
+        }
+      },
+      "macros": [
+        {
+          "gamepad": {
+            "id": 1,
+            "buttonId": 34,
+            "description": "DpadDown"
+          }
+        }
+      ]
+    }
+  ]
+}
