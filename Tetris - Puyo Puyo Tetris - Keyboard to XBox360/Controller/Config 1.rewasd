@@ -79,7 +79,12 @@
         27,
         28,
         29,
-        30
+        30,
+        16,
+        31,
+        32,
+        33,
+        34
       ]
     },
     {
@@ -1188,6 +1193,48 @@
     },
     {
       "condition": {
+        "shiftId": 2,
+        "mask": {
+          "id": 6,
+          "activator": {
+            "type": "single",
+            "mode": "hold_until_release"
+          }
+        }
+      },
+      "macros": [
+        {
+          "gamepad": {
+            "id": 1,
+            "buttonId": 2,
+            "description": "XB, Stadia: B / DS4: Circle / Nintendo: A"
+          }
+        }
+      ]
+    },
+    {
+      "condition": {
+        "shiftId": 2,
+        "mask": {
+          "id": 33,
+          "activator": {
+            "type": "single",
+            "mode": "hold_until_release"
+          }
+        }
+      },
+      "macros": [
+        {
+          "gamepad": {
+            "id": 1,
+            "buttonId": 2,
+            "description": "XB, Stadia: B / DS4: Circle / Nintendo: A"
+          }
+        }
+      ]
+    },
+    {
+      "condition": {
         "hardware": {
           "deviceId": 11,
           "buttonId": 1,
@@ -1578,6 +1625,19 @@
           "deviceId": 11,
           "buttonId": 200,
           "description": "DIK_UP"
+        }
+      },
+      "hardware": {
+        "unmap": true
+      }
+    },
+    {
+      "condition": {
+        "shiftId": 2,
+        "hardware": {
+          "deviceId": 11,
+          "buttonId": 29,
+          "description": "DIK_LCONTROL"
         }
       },
       "hardware": {
