@@ -1,12 +1,8 @@
 {
   "schemaVersion": 3.0,
-  "appVersion": "9.1.3",
+  "appVersion": "9.1.4",
   "config": {
-    "appName": "To PS4 Manual",
-    "processNames": [
-      "steam.exe",
-      "steamwebhelper.exe"
-    ],
+    "appName": "Chalo Chalo (8) Manual",
     "minTimeUnit": 1
   },
   "devices": {

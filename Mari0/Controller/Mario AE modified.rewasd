@@ -1,10 +1,11 @@
 {
   "schemaVersion": 3.0,
-  "appVersion": "7.1.0",
+  "appVersion": "9.1.1",
   "config": {
     "appName": "Mari0",
     "processNames": [
-      "alesan99s_entities_13.1.exe"
+      "alesan99s_entities_13.1.exe",
+      "love.exe"
     ],
     "minTimeUnit": 1
   },

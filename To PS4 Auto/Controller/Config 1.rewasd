@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3.0,
-  "appVersion": "9.1.0",
+  "appVersion": "9.2.0",
   "config": {
     "appName": "To PS4 Auto",
     "processNames": [
@@ -15,12 +15,12 @@
       "KnockEmOut.exe",
       "Brawls.exe",
       "Wrestledunk_Sports.exe",
-      "Unspottable.exe",
       "PlateUp.exe",
       "ShroomSiege.exe",
       "Spring Dogs.exe",
       "Pin Puck.exe",
-      "Chalo_Chalo.exe"
+      "HiddenInPlainSight.exe",
+      "Unspottable.exe"
     ],
     "minTimeUnit": 1
   },
